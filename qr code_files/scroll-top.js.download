@@ -1,0 +1,25 @@
+const isScrolledTwentyPercent = () => {
+    const pageHeight = Math.max(
+      document.body.scrollHeight,
+      document.body.offsetHeight,
+      document.documentElement.clientHeight,
+      document.documentElement.scrollHeight,
+      document.documentElement.offsetHeight
+    );
+    const scrollTop =
+      window.pageYOffset || document.documentElement.scrollTop;
+    const scrollPercentage = (scrollTop / pageHeight) * 100;
+    return scrollPercentage >= 20;
+  };
+
+  window.addEventListener("scroll", () => {
+    const scrollTopBtn = document.querySelector("#scrollTop");
+    if (isScrolledTwentyPercent()) {
+      scrollTopBtn.classList.remove("d-none");
+    } else {
+      scrollTopBtn.classList.add("d-none");
+    }
+  });
+  document.querySelector("#scrollTop").addEventListener("click", () => {
+    window.scroll(0, 0);
+  });
