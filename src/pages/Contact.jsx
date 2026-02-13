@@ -76,7 +76,7 @@ export default function Contact() {
             <p>Reach our team for pricing, delivery timelines, or stock availability.</p>
             <div className="contact-detail">
               <span>Phone</span>
-              <strong>647-767-9687</strong>
+              <strong>647-767-9187</strong>
             </div>
             <div className="contact-detail">
               <span>Email</span>

@@ -52,7 +52,7 @@ export default function Footer() {
           >
             <h4>Contact</h4>
             <ul>
-              <li>647-767-9687</li>
+              <li>647-767-9187</li>
               <li>mfahadmanzoor60@gmail.com</li>
               <li>GTA + Niagara Peninsula</li>
             </ul>

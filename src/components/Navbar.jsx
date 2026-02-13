@@ -19,7 +19,7 @@ export default function Navbar({ theme, onToggleTheme, cartCount = 0 }) {
       <div className="nav-inner">
         <NavLink to="/" className="brand" onClick={() => setOpen(false)}>
           <img
-            src="/products/WhatsApp Image 2026-02-11 at 4.53.18 AM.jpeg"
+            src="/products/mfm-logo.jpeg"
             alt="MFM Packagings"
             className="brand-logo"
           />
